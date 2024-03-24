@@ -16,15 +16,15 @@
 
              @media only screen and (max-width:350px) {
             .MCpadding td{
-                padding-left:14px !important;
-                padding-right:11px !important;
+                padding-left:5px !important;
+                padding-right:4px !important;
             }
             
             .MMLButtonpadding td{
-                padding: 10px 5px 10px 15px !important;    
+                padding: 10px 5px !important;    
             }
             .MMRButtonpadding td{
-                padding: 10px 15px 10px 5px !important;    
+                padding: 10px 5px!important;    
             }
 
              }
@@ -34,7 +34,7 @@
 <!--Image-->
         <mj-section padding="0" background-color="#ffffff">
             <mj-column width="480px" padding="0">
-                <mj-image padding="0" src="src/img/EmailCommerce032024.jpg"  alt="Galerie Marchande dans un centre commercial" />
+                <mj-image padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/65ffecee9d8a3bdbe17813ea.jpg"  alt="Galerie Marchande dans un centre commercial" />
             </mj-column>    
         </mj-section>
 <!--Accroche + Texte-->
@@ -76,12 +76,12 @@
             <mj-group>      
             <mj-column width="50%" padding="10px 20px 10px 40px" css-class="MMLButtonpadding">
                 <mj-button css-class="hover" href="https://forms.gle/EH1NELjnC2DLpnqP6" target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
-                    <img src="src/img/at-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Email" />
+                    <img src="https://img.mailinblue.com/3403292/images/content_library/original/65ffecfb9d8a3bdbe17813ec.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Email" />
                 </mj-button>
             </mj-column>
             <mj-column width="50%" padding="10px 40px 10px 20px" css-class="MMRButtonpadding">
                      <mj-button css-class="hover" href="tel:+33320700606" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
-                    <img src="src/img/phone-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
+                    <img src="https://img.mailinblue.com/3403292/images/content_library/original/65ffed049d8a3bdbe17813ed.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
                 </mj-button>
             </mj-column>
             </mj-group>
@@ -106,7 +106,7 @@
 <!--Adresse-->
         <mj-section padding="0">
             <mj-column width="480px" padding="20px 40px 10px 40px">
-                <mj-image padding="0" width="150px"src="src/img/ECOSUP_CAMPUS_012024.png" alt="Logo Ecosup-Campus" />
+                <mj-image padding="0" width="150px"src="https://img.mailinblue.com/3403292/images/content_library/original/65ffed0f9d8a3bdbe17813ef.png" alt="Logo Ecosup-Campus" />
                 <mj-text padding="0" mj-class="MGtext Mfooter">
                     17 Place Charles et Albert Roussel
                 </mj-text>
