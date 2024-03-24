@@ -36,7 +36,7 @@
                 - Management d'une équipe commerciale.
                </mj-text>
                <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
-                2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, un poste d'assistant de Directeur de magasin.
+                2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, un <strong>poste d'assistant de Directeur de magasin</strong>.
                </mj-text>   
             </mj-column>
         </mj-section>
@@ -53,33 +53,32 @@
         </mj-section>
 <!--Button-->       
         <mj-section padding="0" background-color="#ffffff">
-            <mj-group>
-                
-            <mj-column width="50%">
-                <mj-button width="88px"  height="88px">
-                    
+            <mj-group>      
+            <mj-column width="50%" padding="10px 20px 10px 40px">
+                <mj-button padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
+                    <img src="src/img/at-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Email" />
                 </mj-button>
             </mj-column>
-            <mj-column width="50%">
-                <mj-button width="88px"  height="88px">
-                    
+            <mj-column width="50%" padding="10px 40px 10px 20px">
+                     <mj-button padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
+                    <img src="src/img/phone-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
                 </mj-button>
             </mj-column>
             </mj-group>
         </mj-section>
 <!--Signature-->
         <mj-section padding="0" background-color="#ffffff">
-        <mj-column width="480px" padding="20px 40px 30px 240px">
-            <mj-text padding="0" mj-class="MGtext Mtext">
+        <mj-column width="480px" padding="20px 40px 30px 40px">
+            <mj-text align="center" padding="0" mj-class="MGtext Mtext">
                 À Bientôt
              </mj-text>
-             <mj-text padding="0" mj-class="MGtext Mtext">
-                Marie Laurence Walleart
+             <mj-text align="center" padding="0" mj-class="MGtext Mtext">
+                Marie Laurence <span style="text-transform:uppercase;">Walleart</span>
              </mj-text>
-             <mj-text padding="0" mj-class="MGtext Mtext">
+             <mj-text align="center" padding="0" mj-class="MGtext Mtext">
                 Responsable pédagogique
              </mj-text>
-             <mj-text padding="0" mj-class="MGtext Mtext">
+             <mj-text align="center" padding="0" mj-class="MGtext Mtext">
                 Ecosup Commerce
              </mj-text>
         </mj-column>
