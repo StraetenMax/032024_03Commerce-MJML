@@ -1,6 +1,7 @@
 <mjml>
     <mj-head>
         <mj-attributes>
+            <mj-class name="MGtitle" font-family="Roboto, Arial, sans-serif" color="#EC6608" font-weight="700"/>
             <mj-class name="MGtext" font-family="Roboto, Arial, sans-serif" color="#313131"/>
             <mj-class name="Mtext"  font-size="16px" font-weight="400" line-height="18px"/>
             <mj-class name="Madress" font-size="12px" font-weight="300" line-height="14px"/>
@@ -19,22 +20,22 @@
 <!--Accroche + Texte-->
         <mj-section padding="0" background-color="#ffffff">
             <mj-column width="480px" padding="10px 40px">
-                <mj-text padding="0">
+                <mj-text align="left" font-size="28px" line-height="30px" padding="0" mj-class="MGtitle">
                     BTS en poche, tu souhaites poursuivre tes études et vises un Bachelor en alternance. Alors Rejoins-nous !
                 </mj-text>
-                <mj-text padding="0" mj-class="MGtext Mtext">
-                    1. Grâce à notre programme Bachelor Responsable de Développement Commercial, tu approfondiras les compétences suivantes :
+                <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
+                    1. Grâce à notre programme <strong>Bachelor Responsable de Développement Commercial</strong>, tu approfondiras les compétences suivantes :
                 </mj-text>
-               <mj-text padding="0" mj-class=" MGtext Mtext">
+               <mj-text padding="0 0 0 20px" mj-class=" MGtext Mtext">
                 - Développement opérationnel du plan d'action commercial,
                </mj-text>
-               <mj-text padding="0" mj-class="MGtext Mtext">
+               <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext">
                 - Développement de la stratégie de croissance de l'entreprise,
                </mj-text>
-               <mj-text padding="0" mj-class="MGtext Mtext">
+               <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext">
                 - Management d'une équipe commerciale.
                </mj-text>
-               <mj-text padding="5px 0 0 0" mj-class="MGtext Mtext">
+               <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
                 2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, un poste d'assistant de Directeur de magasin.
                </mj-text>   
             </mj-column>
@@ -42,10 +43,10 @@
 <!--Call action-->
         <mj-section padding="0" background-color="#ffffff">
          <mj-column width="480px">
-            <mj-text>
-            Intéressé(e) ? N'attends pas !!!       
+            <mj-text padding="0" align="center" font-size="18px" line-height="20px" mj-class="MGtitle">
+            Intéressé(e) ? N'attends pas !      
             </mj-text>
-            <mj-text>
+            <mj-text padding="0" align="center" font-size="18px" line-height="20px" mj-class="MGtitle">
                 Contacte-moi maintenant
             </mj-text>
          </mj-column>
@@ -68,7 +69,7 @@
         </mj-section>
 <!--Signature-->
         <mj-section padding="0" background-color="#ffffff">
-        <mj-column width="480px" padding="10px 40px">
+        <mj-column width="480px" padding="10px 40px 10px 240px">
             <mj-text padding="0" mj-class="MGtext Mtext">
                 À Bientôt
              </mj-text>
