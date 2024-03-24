@@ -1,0 +1,113 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-class name="Mtext" font-size="16px" font-weight="400" line-height="20px"/>
+            <mj-all width="480px" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#E8E9EA">
+<!--Image-->
+        <mj-section padding="0" background-color="#ffffff">
+            <mj-column width="480px" padding="0">
+                <mj-image padding="0" src="src/img/EmailCommerce032024.jpg" alt="" />
+            </mj-column>    
+        </mj-section>
+<!--Accroche + Texte-->
+        <mj-section padding="0" background-color="#ffffff">
+            <mj-column width="480px" padding="10px 40px">
+                <mj-text padding="0">
+                    BTS en poche, tu souhaites poursuivre tes études et vises un Bachelor en alternance. Alors Rejoins-nous !
+                </mj-text>
+                <mj-text padding="0" mj-class="Mtext">
+                    1.Grâce à notre programme Bachelor Responsable de Développement Commercial, tu approfondiras les compétences suivantes :
+                </mj-text>
+               <mj-text padding="0">
+                - Développement opérationnel du plan d'action commercial,
+               </mj-text>
+               <mj-text padding="0">
+                - Développement de la stratégie de croissance de l'entreprise,
+               </mj-text>
+               <mj-text padding="0">
+                - Management d'une équipe commerciale.
+               </mj-text>
+               <mj-text padding="0">
+                2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, un poste d'assistant de Directeur de magasin.
+               </mj-text>   
+            </mj-column>
+        </mj-section>
+<!--Call action-->
+        <mj-section padding="0" background-color="#ffffff">
+         <mj-column width="480px">
+            <mj-text>
+            Intéressé(e) ? N'attends pas !!!       
+            </mj-text>
+            <mj-text>
+                Contacte-moi maintenant
+            </mj-text>
+         </mj-column>
+        </mj-section>
+<!--Button-->       
+        <mj-section padding="0" background-color="#ffffff">
+            <mj-group>
+                
+            <mj-column width="50%">
+                <mj-button width="88px"  height="88px">
+                    
+                </mj-button>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-button width="88px"  height="88px">
+                    
+                </mj-button>
+            </mj-column>
+            </mj-group>
+        </mj-section>
+<!--Signature-->
+        <mj-section padding="0" background-color="#ffffff">
+        <mj-column width="480px">
+            <mj-text>
+        À Bientôt
+             </mj-text>
+             <mj-text>
+                Marie Laurence Walleart
+             </mj-text>
+             <mj-text>
+                Responsable pédagogique
+             </mj-text>
+             <mj-text>
+                Ecosup Commerce
+             </mj-text>
+        </mj-column>
+        </mj-section>
+<!--Adresse-->
+        <mj-section>
+            <mj-column>
+                <mj-image src="" alt="" />
+                <mj-text>
+                    17 Place Charles et Albert Roussel
+                </mj-text>
+                <mj-text>
+                    59200 Tourcoing
+                </mj-text>
+            </mj-column>
+        </mj-section>
+<!--Reglement-->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                si vous ne visualisez pas cet email correctement, cliquez ici
+            </mj-text>
+            <mj-text>
+                Vous recevez ce message parce que vous vous êtes inscris aux communications d'Ecosup Campus.    
+            </mj-text>
+            <mj-text>
+                Se désinscrire   
+            </mj-text>
+            <mj-text>
+                © 2024 ECOSUP CAMPUS
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    </mj-body>
+</mjml>
