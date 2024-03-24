@@ -16,9 +16,7 @@
                 padding-left:14px !important;
                 padding-right:11px !important;
             }
-            .MTpadding td:{
-                padding: 0 0 0 10px !important;
-            }
+            
             .MMLButtonpadding td{
                 padding: 10px 5px 10px 15px !important;    
             }
@@ -45,13 +43,13 @@
                 <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
                     1. Grâce à notre programme <strong>Bachelor Responsable de Développement Commercial</strong>, tu approfondiras les compétences suivantes :
                 </mj-text>
-               <mj-text padding="0 0 0 20px" mj-class=" MGtext Mtext" css-class="MTpadding">
+               <mj-text padding="0 0 0 20px" mj-class=" MGtext Mtext">
                 - Développement opérationnel du plan d'action commercial,
                </mj-text>
-               <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext" css-class="MTpadding"> 
+               <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext"> 
                 - Développement de la stratégie de croissance de l'entreprise,
                </mj-text>
-               <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext" css-class="MTpadding">
+               <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext">
                 - Management d'une équipe commerciale.
                </mj-text>
                <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
@@ -74,12 +72,12 @@
         <mj-section padding="0" background-color="#ffffff">
             <mj-group>      
             <mj-column width="50%" padding="10px 20px 10px 40px" css-class="MMLButtonpadding">
-                <mj-button target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
+                <mj-button href="https://forms.gle/EH1NELjnC2DLpnqP6" target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
                     <img src="src/img/at-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Email" />
                 </mj-button>
             </mj-column>
             <mj-column width="50%" padding="10px 40px 10px 20px" css-class="MMRButtonpadding">
-                     <mj-button target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
+                     <mj-button href="tel:+33320700606" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
                     <img src="src/img/phone-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
                 </mj-button>
             </mj-column>
