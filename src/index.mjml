@@ -10,6 +10,9 @@
         <mj-title>Email Ecosup Commerce 032024</mj-title>
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
         <mj-style>
+             .hover:hover td, .hover:hover a{ 
+            background-color:#06421c !important;
+            }
 
              @media only screen and (max-width:350px) {
             .MCpadding td{
@@ -41,7 +44,7 @@
                     <span style="color:#AA3E17;">BTS en poche</span>, tu souhaites poursuivre tes études et <span style="color:#AA3E17;">vises un Bachelor en alternance</span>. Alors Rejoins-nous !
                 </mj-text>
                 <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
-                    1. Grâce à notre programme <strong>Bachelor Responsable de Développement Commercial</strong>, tu approfondiras les compétences suivantes :
+                    1. {{ contact.PRENOM }} Grâce à notre programme <strong>Bachelor Responsable de Développement Commercial</strong>, tu approfondiras les compétences suivantes :
                 </mj-text>
                <mj-text padding="0 0 0 20px" mj-class=" MGtext Mtext">
                 - Développement opérationnel du plan d'action commercial,
@@ -53,7 +56,7 @@
                 - Management d'une équipe commerciale.
                </mj-text>
                <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
-                2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, un <strong>poste d'assistant de Directeur de magasin</strong>.
+                2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, {{ contact.PRENOM }} un <strong>poste d'assistant de Directeur de magasin</strong>.
                </mj-text>   
             </mj-column>
         </mj-section>
@@ -72,12 +75,12 @@
         <mj-section padding="0" background-color="#ffffff">
             <mj-group>      
             <mj-column width="50%" padding="10px 20px 10px 40px" css-class="MMLButtonpadding">
-                <mj-button href="https://forms.gle/EH1NELjnC2DLpnqP6" target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
+                <mj-button css-class="hover" href="https://forms.gle/EH1NELjnC2DLpnqP6" target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
                     <img src="src/img/at-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Email" />
                 </mj-button>
             </mj-column>
             <mj-column width="50%" padding="10px 40px 10px 20px" css-class="MMRButtonpadding">
-                     <mj-button href="tel:+33320700606" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
+                     <mj-button css-class="hover" href="tel:+33320700606" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
                     <img src="src/img/phone-solid.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
                 </mj-button>
             </mj-column>
@@ -116,13 +119,13 @@
     <mj-section padding="0">
         <mj-column width="480px" padding="10px 40px 30px 40px">
             <mj-text padding="0" mj-class="MGtext Mfooter">
-                si vous ne visualisez pas cet email correctement, cliquez ici
+                si vous ne visualisez pas cet email correctement, cliquez <a href="{{ mirror }}">ici</a>.
             </mj-text>
             <mj-text padding="0" mj-class="MGtext Mfooter">
                 Vous recevez ce message parce que vous vous êtes inscrit(e) aux communications d'Ecosup Campus.    
             </mj-text>
             <mj-text padding="0" mj-class="MGtext Mfooter" text-transform="uppercase">
-                Se désinscrire   
+                <a href="{{ unsubscribe }}">Se désinscrire</a>   
             </mj-text>
             <mj-text padding="10px 0 0 0" mj-class="MGtext Mfooter" text-transform="uppercase">
                 © 2024 Ecosup Campus
