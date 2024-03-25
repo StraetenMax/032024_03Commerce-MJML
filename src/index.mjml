@@ -3,7 +3,7 @@
         <mj-attributes>
             <mj-class name="MGtitle" font-family="Roboto, Arial, sans-serif" color="#EC6608" font-weight="700"/>
             <mj-class name="MGtext" font-family="Roboto, Arial, sans-serif" color="#313131"/>
-            <mj-class name="Mtext"  font-size="16px" font-weight="400" line-height="18px"/>
+            <mj-class name="Mtext"  font-size="16px" font-weight="300" line-height="20px"/>
             <mj-class name="Mfooter" font-size="12px" font-weight="300" line-height="16px" align="center"/>
             <mj-all width="480px" />
         </mj-attributes>
@@ -19,14 +19,6 @@
                 padding-left:5px !important;
                 padding-right:4px !important;
             }
-            .MTfont div{
-                font-size: 28px !important;
-                line-height: 30px !important;
-            }
-            
-            .MMButtonpadding td{
-                padding: 10px 5px !important;    
-            }
              }
         </mj-style>
     </mj-head>
@@ -40,7 +32,7 @@
 <!--Accroche + Texte-->
         <mj-section padding="0" background-color="#ffffff">
             <mj-column width="480px" padding="10px 20px" css-class="MCpadding">
-                <mj-text align="left" font-size="32px" line-height="34px" padding="0" mj-class="MGtitle" css-class="MTfont">
+                <mj-text align="left" font-size="22px" line-height="26px" padding="0" mj-class="MGtitle">
                     <span style="color:#AA3E17;">BTS en poche</span>, tu souhaites poursuivre tes études et <span style="color:#AA3E17;">vises un Bachelor en alternance</span>. Alors Rejoins-nous !
                 </mj-text>
                 <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
@@ -74,14 +66,14 @@
 <!--Button-->       
         <mj-section padding="0" background-color="#ffffff">
             <mj-group>      
-            <mj-column width="50%" padding="10px 20px" css-class="MMButtonpadding">
-                <mj-button css-class="hover" href="https://forms.gle/EH1NELjnC2DLpnqP6" target="_blank" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="right" background-color="#198754" color="#ffffff" line-height="50px">
-                    <img src="https://img.mailinblue.com/3403292/images/content_library/original/65ffecfb9d8a3bdbe17813ec.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Email" />
+            <mj-column width="50%" padding="10px 20px">
+                <mj-button css-class="hover" href="https://forms.gle/EH1NELjnC2DLpnqP6" target="_blank" padding="0" inner-padding="0" width="60px" height="60px" border-radius="5px" align="right" background-color="#198754" color="#ffffff" line-height="36px">
+                    <img src="https://img.mailinblue.com/3403292/images/content_library/original/65ffecfb9d8a3bdbe17813ec.png"  style="width:36px;text-align:center;vertical-align:middle;" alt="Contact Email" />
                 </mj-button>
             </mj-column>
-            <mj-column width="50%" padding="10px 20px" css-class="MMButtonpadding">
-                     <mj-button css-class="hover" href="tel:+33320700606" padding="0" inner-padding="0" width="88px" height="88px" border-radius="15px" align="left" background-color="#198754" color="#ffffff" line-height="50px">
-                    <img src="https://img.mailinblue.com/3403292/images/content_library/original/65ffed049d8a3bdbe17813ed.png"  style="width:50px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
+            <mj-column width="50%" padding="10px 20px">
+                     <mj-button css-class="hover" href="tel:+33320700606" padding="0" inner-padding="0" width="60px" height="60px" border-radius="5px" align="left" background-color="#198754" color="#ffffff" line-height="36px">
+                    <img src="https://img.mailinblue.com/3403292/images/content_library/original/65ffed049d8a3bdbe17813ed.png"  style="width:36px;text-align:center;vertical-align:middle;" alt="Contact Phone" />
                 </mj-button>
             </mj-column>
             </mj-group>
