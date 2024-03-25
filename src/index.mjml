@@ -36,19 +36,19 @@
                     <span style="color:#AA3E17;">BTS en poche</span>, tu souhaites poursuivre tes études et <span style="color:#AA3E17;">vises un Bachelor en alternance</span>. Alors Rejoins-nous !
                 </mj-text>
                 <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
-                    1. {{ contact.PRENOM }} Grâce à notre programme <strong>Bachelor Responsable de Développement Commercial</strong>, tu approfondiras les compétences suivantes :
+                    1. {{ contact.PRENOM }} Grâce à notre programme <strong>Bachelor Responsable de Développement Commercial</strong>, tu approfondis les compétences suivantes :
                 </mj-text>
                <mj-text padding="0 0 0 20px" mj-class=" MGtext Mtext">
-                - Développement opérationnel du plan d'action commercial,
+                    - Développement opérationnel du plan d'action commercial,
                </mj-text>
                <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext"> 
-                - Développement de la stratégie de croissance de l'entreprise,
+                    - Développement de la stratégie de croissance de l'entreprise,
                </mj-text>
                <mj-text padding="0 0 0 20px" mj-class="MGtext Mtext">
-                - Management d'une équipe commerciale.
+                    - Management d'une équipe commerciale.
                </mj-text>
                <mj-text padding="10px 0 0 0" mj-class="MGtext Mtext">
-                2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, {{ contact.PRENOM }} un <strong>poste d'assistant de Directeur de magasin</strong>.
+                    2. Pour mettre en oeuvre ces nouvelles compétences, je te propose en alternance, un <strong>poste d'assistant de Directeur de magasin</strong>.
                </mj-text>   
             </mj-column>
         </mj-section>
@@ -56,7 +56,7 @@
         <mj-section padding="0" background-color="#ffffff">
          <mj-column width="480px"  css-class="MMpadding">
             <mj-text padding="0" align="center" font-size="18px" line-height="20px" mj-class="MGtitle">
-            Intéressé(e) ? N'attends pas !      
+                Intéressé(e) ? N'attends pas !      
             </mj-text>
             <mj-text padding="0" align="center" font-size="18px" line-height="20px" mj-class="MGtitle">
                 Contacte-moi maintenant
@@ -85,7 +85,7 @@
                 À Bientôt
              </mj-text>
              <mj-text align="center" padding="0" mj-class="MGtext Mtext" css-class="MTIpadding">
-                Marie Laurence <span style="text-transform:uppercase;">Walleart</span>
+                Marie Laurence <span style="text-transform:uppercase;">Wallaert</span>
              </mj-text>
              <mj-text align="center" padding="0" mj-class="MGtext Mtext" css-class="MTIpadding">
                 Responsable pédagogique
